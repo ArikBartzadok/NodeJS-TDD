@@ -1,0 +1,9 @@
+const path = require('path')
+
+// Definindo um objeto de exportação, uma vez que a estrutura inicial do sequelize foi alterada
+module.exports = {
+    config: path.resolve('src', 'config', 'database.js'),
+    'models-path': path.resolve('src', 'app', 'models'),
+    'seeders-path': path.resolve('src', 'database', 'seeders'),
+    'migrations-path': path.resolve('src', 'database', 'migrations')
+}
