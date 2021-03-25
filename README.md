@@ -8,5 +8,6 @@
 - Jest
 - sqlite3
 - supertest
-
-[51:00]
+- bcryptjs
+- factorygirl
+-faker
