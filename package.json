@@ -21,8 +21,12 @@
   },
   "homepage": "https://github.com/ArikBartzadok/NodeJS-TDD#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "factory-girl": "^5.0.4",
+    "faker": "^5.4.0",
+    "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.2.5",
     "nodemon": "^2.0.7",
     "sequelize": "^6.6.2",
